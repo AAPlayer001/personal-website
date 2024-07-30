@@ -1,0 +1,107 @@
+main {
+    margin: 30px;
+    padding: 30px;
+  }
+  
+  body {
+    background-color: #fffae5;
+  }
+  
+  .header div {
+    position: static;
+    font-size: 18px;
+    line-height: 2.4;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 20px;
+    background-color: rgb(182, 174, 124);
+    padding: 20px;
+  }
+  
+  .avatar {
+    position: absolute;
+    float: left;
+    top: 10px;
+    left: 40px;
+    padding: 10px;
+    background-color: rgb(54, 12, 24);
+  
+    height: 200px;
+    width: 130px;
+  }
+  
+  h1 {
+    position: absolute;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19px;
+    top: 40px;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .information p {
+    padding-left: 80px;
+    padding-right: 450px;
+    line-height: 1.4;
+    font-size: 19px;
+  }
+  
+  .first {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 250px;
+  
+    background-color: rgb(124, 133, 141);
+  }
+  
+  .others {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+  
+    background-color: rgb(12, 120, 120);
+  }
+  
+  h3 {
+    font-style: italic;
+    line-height: 2.6;
+    font-size: 28px;
+    font-weight: 180;
+  }
+  
+  .contact ul {
+    line-height: 1.7;
+    margin-left: 4%;
+  }
+  
+  .footer {
+    background-color: rgb(95, 88, 77);
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+  }
+  

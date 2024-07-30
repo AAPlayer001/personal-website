@@ -1,0 +1,36 @@
+/* Universal reset for webpage, no matter the browser */
+
+/* Basic rules for webpage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General webpage reset for content on webpage */
+html {
+    height: 100%;
+}
+
+/* All body text follows these rules before adjustment */
+body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+/* All headers follow same font size rule before adjustment */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+/* Prevents selector disorganization by defaulting 'ol' and 'ul' identifiers */
+ol, ul {
+    list-style: none;
+}
+
+/* Additional setting defaults before adjustments */
+input, select, option, optgroup, textarea, button, pre, code {
+    font-size: 100%;
+    font-family: inherit;
+}
